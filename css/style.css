@@ -15,6 +15,9 @@ html{
 body{
     height: 300rem;
 }
+i{
+    margin-left:10px;
+}
 /*----------------------------------
 header section  style  starts here
 ------------------------------------- */
@@ -88,3 +91,78 @@ header section  style  starts here
 .box-img img{
     width:80px;
 }
+
+/* shoes section starts here  */
+.shoes-section{
+    background: #F4F4F4;
+    padding: 20px 0px;
+
+}
+.shoes h1{
+    font-family: 'Poppins', sans-serif;
+    color: #1F1F1F;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+}
+.shoes-anchor a{
+    color: #FF9D00;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.shoes-box{
+    background-color:#FFFFFF;
+    padding:24px;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+.shoes-box img{
+    margin-bottom:22px;
+}
+.shoes-box h2{
+    font-family: 'Poppins', sans-serif;
+    color: #1F1F1F;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 36px;
+    margin-bottom:16px;
+}
+.shoes-box h3{
+    font-family: 'Poppins', sans-serif;
+    font-style:normal;
+    color:#000000;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom:16px;
+}
+.shoes-box p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4E4E;
+}
+.btn-2{
+    background-color:#000000;
+    border:none;
+    border:1px solid #000000;
+    padding:10px 25px;
+    color:#FFFFFF;
+    border-radius:6px;
+    transition:.3s ease;
+}
+.btn-2:hover{
+    background:#FFFFFF;
+    color:#000000;     
+}
+
+
+
+
