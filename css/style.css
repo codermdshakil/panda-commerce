@@ -18,8 +18,14 @@ i{
 /*----------------------------------
 header section  style  starts here
 ------------------------------------- */
-.home-section{
+.header-section{
     background-color:#f8f9fa;
+}
+/*----------------------------------
+home section  style  starts here
+------------------------------------- */
+
+.home-section{
     padding:6px 0px;
 }
 .home-section{
@@ -70,22 +76,20 @@ header section  style  starts here
     margin-bottom: 8px;
     padding:10px 25px;
 }
-
-/* cetagory section starts here  */
+/*----------------------------------
+cetagory section  style  starts here
+------------------------------------- */
 .cetagory-title{
     font-size: 36px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
     margin-bottom: 40px;
-
 }
 .box{
     background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
     margin-bottom: 40px;
     border-radius:20px;
-
-
 }
 .box-2{
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
@@ -98,8 +102,9 @@ header section  style  starts here
 .box-img img{
     width:80px;
 }
-
-/* shoes section starts here  */
+/*----------------------------------
+shoes section style  starts here
+------------------------------------- */
 .shoes-section{
     background: #F4F4F4;
     padding: 20px 0px;
@@ -170,6 +175,82 @@ header section  style  starts here
     color:#000000;     
 }
 
+/*----------------------------------
+subscribe section style  starts here
+------------------------------------- */
+.subscribe-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:#FEEAE9;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
 
+.subscribe-content h1{
+    color: #1F1F1F;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+.subscribe-content p{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sub-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:280px;
+    display: block;
+    margin: auto;
+}
+.email_name{
+    font-family: 'Poppins', sans-serif;
+    padding:8px 10px;
+    border:1px solid gray;
+    outline: none;
+    color: #CCCCCC;
+    font-size: 15px;
+    font-weight:400;
+    font-style :normal;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
-
+}
+.sent-btn{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FF136F;
+    color:#FFFFFF;
+    padding:9px 10px;
+    font-size: 15px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*----------------------------------
+footer section style  starts here
+------------------------------------- */
+.footer-content p{
+    font-family: 'Poppins', sans-serif;
+}
+.credit{
+    color:#FF136F;
+    cursor: pointer;
+}
+.credit:hover{
+    color:#FF136F;
+}
+.footer-bg{
+    background-color:rgb(180, 175, 175);
+}
