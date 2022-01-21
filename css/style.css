@@ -18,6 +18,9 @@ body{
 /*----------------------------------
 header section  style  starts here
 ------------------------------------- */
+.home-section{
+    margin-bottom: 60px;
+}
 .contents{
     background-color:#FEEAE9;
     border-radius: 10px;
@@ -63,3 +66,25 @@ header section  style  starts here
     padding:10px 25px;
 }
 
+/* cetagory section starts here  */
+.cetagory-title{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 40px;
+
+}
+.box{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    margin-bottom: 40px;
+}
+.box-2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.box-3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.box-img img{
+    width:80px;
+}
